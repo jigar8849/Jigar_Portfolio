@@ -110,7 +110,7 @@
         display: flex;
         flex-direction: column;
         width: 100%;
-        height: 120vh;
+        height: 83vh;
     }
     .contact_desc{
         display: none;
@@ -153,11 +153,11 @@
 } 
  .Skills {
     width: 100%;
-    height: 240vh;
+    height: 180vh;
 } 
  .projects {
     width: 100%;
-    height: 560vh;
+    height: 325vh;
 } 
  .projects_card {
     width: 25rem;
@@ -179,7 +179,7 @@
 
  .education {
     width: 100%;
-    height: 180vh;
+    height: 115vh;
 } 
  .edu_container {
     display: flex;
