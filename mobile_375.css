@@ -284,7 +284,6 @@
     }
 
     .nav-2 {
-        border: 2px solid red;
         flex-direction: column;
         margin-left: 11.81rem;
         gap: 3rem;
