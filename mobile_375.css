@@ -204,7 +204,7 @@
 
     .form {
         width: 100%;
-        height: 80vh;
+        height: 90vh;
         display: flex;
         flex-direction: column;
     }
@@ -269,6 +269,7 @@
 @media (max-width: 415px) {
     body {
         overflow-x: hidden;
+        width: 100%;
 
     }
 
@@ -371,13 +372,15 @@
     }
 
     .about-me {
-        height: 80vh;
+        /* height: 80vh; */
         width: 100%;
 
     }
 
     .about-desc {
         display: flex;
+        width: 100%;
+
         justify-content: center;
     }
 
@@ -396,7 +399,7 @@
 
     .Skills {
         width: 100%;
-        height: 170vh;
+        height: 280vh;
     }
 
     .container-fade-in {
@@ -422,13 +425,13 @@
 
     .projects {
         width: 100%;
-        height: 350vh;
+        height: 580vh
 
     }
 
     .projects_card {
         width: 20rem;
-        height: 25rem;
+        height: 26rem;
         margin-right: 2rem;
 
     }
@@ -448,7 +451,7 @@
 
     .education {
         width: 100%;
-        height: 110vh;
+        height: 180vh;
     }
 
     .edu_container {
@@ -471,7 +474,7 @@
 
     .form {
         width: 100%;
-        height: 80vh;
+        height: 115vh;
         display: flex;
         flex-direction: column;
     }
