@@ -24,7 +24,7 @@
 
     .nav-2 {
         flex-direction: column;
-        margin-left: -0.19rem;
+        margin-left: -0.11rem;
         gap: 3rem;
         justify-content: center;
         background-color: black;
@@ -33,7 +33,7 @@
         margin-top: -2rem;
         display: none;
         position: absolute;
-        border: 2px solid red;
+        /* border: 2px solid red; */
     }
 
     .hemburger {
@@ -52,6 +52,12 @@
     }
     .name{
         font-size: 2.4rem;
+    }
+    .project{
+        margin-left: 5rem;
+    }
+    .contact{
+        margin-left: 5rem;
     }
 
     .about:hover,
