@@ -42,7 +42,9 @@
         flex-direction: row;
         align-items: center;
     }
-
+    .dev-2{
+        font-size: 4.5rem;
+    }
     .project {
         margin-left: 3rem;
         display: flex;
@@ -167,9 +169,9 @@
     }
 
     .projects_card {
-        width: 25rem;
+        width: auto;
         height: 25rem;
-        margin-right: 1rem;
+        margin-right: 0.2rem;
     }
 
     .projects_container {
