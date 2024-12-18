@@ -732,7 +732,7 @@ select {
 
 
 #scrollTopBtn {
-    display: none;
+    /* display: none; */
     position: fixed;
     bottom: 1.5%;
     left: 1.5%;

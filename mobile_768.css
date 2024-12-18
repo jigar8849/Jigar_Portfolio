@@ -26,7 +26,7 @@
 
     .nav-2 {
         flex-direction: column;
-        /* margin-left: -1.5rem; */
+        margin-left: 1.5rem;
         gap: 3rem;
         justify-content: center;
         background-color: black;
@@ -87,7 +87,7 @@
     }
 
     .developer {
-        margin-top: 2rem;
+        margin-top: 3rem;
         padding-top: 5rem;
         padding-left: 1.rem;
         display: flex;
