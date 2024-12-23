@@ -1,7 +1,6 @@
 @media (max-width: 480px) {
     body {
         overflow-x: hidden;
-
     }
 
     .intro-page {
@@ -14,72 +13,54 @@
     }
 
     .name {
-        font-size: 25px;
+        font-size: 20px;
         font-weight: 900;
         border-radius: 8px;
         margin-bottom: 1rem;
         margin-left: 2.2rem;
     }
 
-
-
     .nav-2 {
         flex-direction: column;
-        margin-left: 17.5rem;
-        gap: 3rem;
+        margin-left: 0;
+        gap: 1.5rem;
         justify-content: center;
         background-color: black;
-        height: 15rem;
-        width: 12.3rem;
-        margin-top: -1rem;
+        height: auto;
+        width: 100%;
+        margin-top: 0;
         display: none;
         position: absolute;
     }
 
-    .about {
-        margin-left: 3.5rem;
+    .about,
+    .project,
+    .contact {
+        margin-left: 1rem;
         display: flex;
-        flex-direction: row;
-        align-items: center;
-    }
-    .dev-2{
-        font-size: 4.5rem;
-    }
-    .project {
-        margin-left: 3rem;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
+        flex-direction: column;
+        align-items: flex-start;
     }
 
-    .contact {
-        margin-left: 2.8rem;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
+    .dev-2 {
+        font-size: 3rem;
     }
 
     .Skills1 {
-        width: 80%;
-        height: 95vh;
+        width: 100%;
+        height: auto;
     }
-
 
     .nav-2 a {
         color: white;
         width: 1rem;
         text-decoration: underline;
-
     }
 
-    /* .nav-2.active{
-        display: flex;
-    } */
     .about:hover,
     .project:hover,
     .contact:hover {
         text-decoration: underline;
-        /* color: white; */
     }
 
     .nav {
@@ -87,12 +68,13 @@
         position: relative;
         width: 100%;
         justify-content: space-between;
+        padding: 0 1rem;
     }
 
     .developer {
-        margin-top: 2rem;
-        padding-top: 5rem;
-        padding-left: 1.rem;
+        margin-top: 1rem;
+        padding-top: 2rem;
+        padding-left: 1rem;
         display: flex;
         justify-content: space-between;
     }
@@ -113,32 +95,14 @@
         display: flex;
         flex-direction: column;
         width: 100%;
-        height: 120vh;
+        height: auto;
     }
 
-    .contact_desc {
-        display: none;
-    }
-
-    .call {
-        display: none;
-    }
-
+    .contact_desc,
+    .call,
     .line {
         display: none;
     }
-
-    /* extra css */
-
-
-    .line {
-        top: 0;
-        bottom: 0;
-        left: 50%;
-        transform: translateX(-50%);
-        z-index: 0;
-    }
-
 
     .about-me {
         height: 100vh;
@@ -150,39 +114,45 @@
         justify-content: center;
     }
 
+    /* Make cards responsive */
     .card {
         display: flex;
         justify-content: center;
-        width: 25rem;
-        height: 25rem;
+        width: 90%;
+        max-width: 22rem; /* max width to prevent overflow */
+        height: auto;
         font-size: 1.3rem;
+        margin: 1rem auto;
     }
 
     .Skills {
         width: 100%;
-        height: 240vh;
+        height: auto;
     }
 
     .projects {
         width: 100%;
-        height: 560vh;
+        height: auto;
     }
 
     .projects_card {
-        width: auto;
-        height: 26rem;
-        margin-right: 0.2rem;
-        margin-left: 2rem;
+        width: 100%;
+        max-width: 22rem; /* Prevent card overflow */
+        height: auto;
+        margin: 1rem 0;
     }
 
     .projects_container {
         display: grid;
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+        gap: 1rem;
+        padding: 1rem;
     }
 
     .card_img {
-        margin-left: 2.3rem;
-        width: 20rem;
+        width: 100%;
+        max-width: 20rem;
+        margin-left: 0;
     }
 
     .img {
@@ -191,7 +161,7 @@
 
     .education {
         width: 100%;
-        height: 180vh;
+        height: auto;
     }
 
     .edu_container {
@@ -200,7 +170,7 @@
     }
 
     .edu_info {
-        width: 25rem;
+        width: 100%;
     }
 
     .edu_title {
@@ -218,31 +188,20 @@
     .contact_sub-heading {
         display: flex;
         justify-content: center;
-        margin-right: 3.3rem;
         gap: 7px;
-        margin-top: -0.05rem;
+        margin-top: 0;
         font-size: 1.5rem;
-        margin-bottom: 0.9rem;
     }
 
     .web-devloper {
         display: flex;
         justify-content: center;
-        margin-right: 3rem;
         font-size: 2.3rem;
-        margin-top: -0.6rem;
         text-decoration: none;
     }
 
-    /* .projects {
-    width: 100%;
-    height: 430vh;
-}  */
-
+    /* Make line elements responsive */
     .line {
         display: none;
     }
-
-
-
 }

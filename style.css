@@ -73,6 +73,7 @@ body {
     background-color: black;
     color: white;
     height: 4rem;
+    z-index: 1 !important;
 }
 
 /* .mp {
@@ -178,7 +179,8 @@ body {
             rgba(221, 221, 221, 1) 30%);
     width: 100%;
     padding: 10px 0;
-    height: 120vh;
+    height: fit-content;
+    padding-bottom: 5%;
 }
 
 .Skills h1 {
@@ -276,10 +278,11 @@ body {
 
 /* fourth page start */
 .projects {
-    height: 180vh;
+    height: fit-content;
     width: 100vw;
     background-color: rgb(22, 21, 21);
     color: white;
+    padding-bottom: 5%;
 }
 
 .project_heading {
@@ -367,6 +370,12 @@ body {
 
 }
 
+.col{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
 .view_btn:hover,
 .github_btn:hover {
     height: 2.3rem;
@@ -378,7 +387,7 @@ body {
 
 /* Fifth Page start */
 .education {
-    height: auto;
+    height: fit-content;
     width: 100vw;
     background-color: rgb(215, 212, 212);
     padding-bottom: 2%;
@@ -387,9 +396,12 @@ body {
 .edu_container {
     width: 100vw;
     display: flex;
+    padding: 3%;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
 }
 
 .edu_heading {
@@ -402,13 +414,15 @@ body {
 }
 
 .edu_info {
-    /* border: 2px solid black; */
-    width: 60rem;
-    height: 20rem;
+    box-sizing: border-box; 
+    width: auto;
+    height: auto;
     margin-top: 2%;
     border-radius: 15px;
     background-color: #ababab;
+    width: 70%;
 }
+
 
 .edu_title {
     font-size: 35px;
@@ -454,16 +468,15 @@ body {
 }
 
 .contact_sub-heading {
-    margin-left: 3rem;
-    margin-top: 1.5rem;
+    display: flex ;
+            justify-content: center;
     font-size: 1.7rem;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 600;
 }
 
 .web-devloper {
-    margin-left: 3rem;
-    margin-top: 1.5em;
+
     font-size: 1.7rem;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 600;
@@ -496,13 +509,14 @@ body {
 }
 
 .form {
-    height: 100vh;
+    height: fit-content !important;
     display: flex;
     flex-direction: row;
     background-color: black;
     color: white;
     width: 100%;
     padding: 2%;
+    padding-bottom: 5%;
 }
 
 .line {
